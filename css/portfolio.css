@@ -1,3 +1,27 @@
+#color-key {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+#color-key ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#color-key li {
+  margin: 0 10px;
+}
+
+#color-key span {
+  display: inline-block;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
 #portfolio {
   display: flex;
   flex-direction: row;
@@ -17,6 +41,7 @@
   margin: 10px;
   padding: 10px;
   transition: 1s;
+  color: #1C2833;
 }
 
 .ruby-project {
@@ -32,7 +57,7 @@
 }
 
 .api-project {
-  background-color: #7c859e;
+  background-color: #8992b5;
 }
 
 .ruby-project:hover {
