@@ -3,10 +3,7 @@
   margin: 0 auto;
 }
 
-#color-key ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+#color-key {
   justify-content: space-around;
 }
 
@@ -23,9 +20,6 @@
 }
 
 #portfolio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   flex: 200px;
   text-align: center;
