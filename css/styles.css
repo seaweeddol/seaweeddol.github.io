@@ -9,15 +9,34 @@ body {
   font-family: 'Josefin Slab', serif;
 }
 
+h1,h2,h3,h4,h5 {
+  font-family: 'Amatic SC', cursive;
+}
+
 body > * {
   margin: 100px 0;
-  padding: 0 15vw;
+  padding: 0 10vw;
 }
 
 ul {
   list-style: none;
   padding: 20px 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #48516d;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6fa88d;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #6fa88d;
 }
 
 nav, footer {
@@ -31,6 +50,7 @@ nav ul, footer ul {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-size: 1.2em;
 }
 
 nav span, footer span {
@@ -53,17 +73,27 @@ header {
   max-width: 800px;
 }
 
+header::after {
+  position:absolute;
+  content: " ";
+  /* display:block; */
+  width: 80vw;
+  height:30px;
+  left: 10vw;
+  border-bottom: 2px solid #cb521a;
+}
+
 #buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-#buttons img {
+#buttons a > * {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border: 2px solid black;
+  border: 3px solid #cb521a;
 }
 
 .hover-img {
@@ -76,4 +106,14 @@ header {
 
 #buttons > div:hover .hover-img {
   display: block;
+  content: "blah";
+  background-image: url('../images/rory-scream.png');
+  background-size: contain;
+  text-align: center;
+}
+
+h3 {
+  padding: 30px 0;
+  font-size: 3em;
+  color: #cb521a;
 }
