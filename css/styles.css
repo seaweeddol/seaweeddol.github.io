@@ -1,13 +1,38 @@
-ul {
-  list-style: none;
+body {
+  font-family: 'Josefin Slab', serif;
 }
 
-/* #portfolio-img {
-  background-image: url('../images/cat.jpeg') no-repeat ;
-  height: 100px;
-  width: 100px;
-  scale: auto;
-} */
+body > * {
+  margin: 100px 0;
+  padding: 0 15vw;
+}
+
+ul {
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 10px 10vw;
+  background-color: aquamarine;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav ul span {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
 
 #buttons img {
   width: 200px;
