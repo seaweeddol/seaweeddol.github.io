@@ -1,3 +1,10 @@
+/* color palette
+#f6cf2d - yellow
+#f29100 - orangey
+#cb521a - red-orange
+#6fa88d - tealish
+*/
+
 body {
   font-family: 'Josefin Slab', serif;
 }
@@ -13,25 +20,43 @@ ul {
   margin: 0;
 }
 
-nav {
+nav, footer {
   margin: 0;
   padding: 10px 10vw;
-  background-color: aquamarine;
+  background-color: #f6cf2d;
 }
 
-nav ul {
+nav ul, footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-nav ul span {
+nav span, footer span {
   display: flex;
   flex-direction: row;
 }
 
-nav ul li {
+nav ul li, footer ul li {
   padding: 0 20px;
+}
+
+/* extend footer when page is shorter than viewport */
+footer {
+  box-shadow: 0 50vh 0 50vh #f6cf2d;
+}
+
+header {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #buttons img {
