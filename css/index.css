@@ -1,14 +1,14 @@
 #buttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 #buttons a > * {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: 3px solid #cb521a;
+  width: 230px;
+  height: 230px;
+  border: 1px solid transparent;
 }
 
 .hover-img {
@@ -21,14 +21,15 @@
 
 #buttons > div:hover .hover-img {
   display: block;
-  content: "blah";
   background-image: url('../images/rory-scream.png');
   background-size: contain;
   text-align: center;
 }
 
 .hover-img h3 {
-  padding: 30px 0;
   font-size: 3em;
   color: #cb521a;
+  transform: rotate(-20deg);
+  margin: -10px 0 0 190px;
+  z-index: -1;
 }
