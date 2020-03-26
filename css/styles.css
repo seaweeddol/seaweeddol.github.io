@@ -9,7 +9,7 @@ body {
   font-family: 'Josefin Slab', serif;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,nav,footer {
   font-family: 'Amatic SC', cursive;
 }
 
@@ -42,6 +42,7 @@ h2 {
 nav, footer {
   margin: 0;
   padding: 10px 10vw;
+  font-size: 1.5em;
   background-color: #f6cf2d;
 }
 
@@ -81,39 +82,4 @@ header::after {
   height:30px;
   left: 10vw;
   border-bottom: 2px solid #cb521a;
-}
-
-#buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#buttons a > * {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: 3px solid #cb521a;
-}
-
-.hover-img {
-  display: none;
-}
-
-#buttons > div:hover .initial-img {
-  display: none;
-}
-
-#buttons > div:hover .hover-img {
-  display: block;
-  content: "blah";
-  background-image: url('../images/rory-scream.png');
-  background-size: contain;
-  text-align: center;
-}
-
-h3 {
-  padding: 30px 0;
-  font-size: 3em;
-  color: #cb521a;
 }
