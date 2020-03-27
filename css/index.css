@@ -23,9 +23,7 @@
   text-align: center;
 }
 
-.hover-img h3 {
-  font-size: 3em;
-  color: #cb521a;
+.hover-img h2 {
   transform: rotate(-20deg);
   margin: -10px 0 0 190px;
   z-index: -1;
