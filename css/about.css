@@ -1,0 +1,44 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto;
+  width: 65vw;
+}
+
+#about img {
+  width: 200px;
+}
+
+#about ul {
+  display: inline;
+}
+
+#about li {
+  margin: 5px 0;
+}
+
+#info > * {
+  margin: 20px 0;
+  text-align: center;
+}
+
+header::after {
+  display: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+sub {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px;
+}
+
+h3 {
+  margin: 15px 0;
+}
