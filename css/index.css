@@ -2,6 +2,11 @@
   justify-content: space-around;
 }
 
+#buttons div {
+  border: 3px solid #cb521a;
+  border-radius: 100%;
+}
+
 #buttons a > * {
   width: 230px;
   height: 230px;
@@ -25,6 +30,6 @@
 
 .hover-img h2 {
   transform: rotate(-20deg);
-  margin: -10px 0 0 190px;
+  margin: -10px 0 0 200px;
   z-index: -1;
 }
