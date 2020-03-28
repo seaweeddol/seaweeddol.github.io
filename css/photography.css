@@ -1,0 +1,10 @@
+#photography {
+  justify-content: center;
+}
+
+#photography img {
+  height: 225px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
