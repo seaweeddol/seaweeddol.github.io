@@ -20,7 +20,7 @@
 }
 
 #portfolio {
-  justify-content: space-evenly;
+  justify-content: center;
   flex: 200px;
   text-align: center;
 }
@@ -51,7 +51,7 @@
 }
 
 .api-project {
-  background-color: #8992b5;
+  background-color: #a1c0ef;
 }
 
 .ruby-project:hover {
@@ -67,7 +67,7 @@
 }
 
 .api-project:hover {
-  background-color: #4f68a3;
+  background-color: #5884c5;
 }
 
 #portfolio > a:hover {
