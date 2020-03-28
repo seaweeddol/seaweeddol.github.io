@@ -6,5 +6,9 @@
   height: 225px;
   padding: 5px;
   border-radius: 20px;
+  transition: .5s;
 }
-
+#photography img:hover {
+  transform: scale(1.8);
+  transition: transform 1s;
+}
