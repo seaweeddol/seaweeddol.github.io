@@ -32,7 +32,7 @@ body > * {
   padding: 0 10vw;
 }
 
-section, ul, span {
+section, nav, footer, ul, span {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,15 +59,12 @@ nav, footer {
   margin: 0;
   padding: 10px 10vw;
   background-color: #f6cf2d;
-}
-
-nav ul, footer ul {
   justify-content: space-between;
   align-items: center;
   font-size: 1.5em;
 }
 
-nav ul li, footer ul li {
+nav *, footer * {
   padding: 0 20px;
 }
 
