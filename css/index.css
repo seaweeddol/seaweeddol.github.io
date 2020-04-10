@@ -21,13 +21,16 @@
 #buttons h2 {
   display: inline;
   position: absolute;
-  transform: rotate(-10deg);
-  margin: -52px -6px;
+  margin: -65px 0px;
   text-align: center;
 }
 
 .hover-img {
   display: none;
+}
+
+#buttons > div:hover h2 {
+  font-size: 3.5em;
 }
 
 #buttons > div:hover .initial-img {
