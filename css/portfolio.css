@@ -38,35 +38,35 @@
   color: #1C2833;
 }
 
-.ruby-project {
+.fullstack-project {
   background-color: #d18f70;
 }
 
-.javascript-project {
+.other-project {
   background-color: #f8e598;
 }
 
-.html-css-project {
+.code-project {
   background-color: #7c7296;
 }
 
-.api-project {
+.frontend-project {
   background-color: #a1c0ef;
 }
 
-.ruby-project:hover {
+.fullstack-project:hover {
   background-color: #cb521a;
 }
 
-.javascript-project:hover {
+.other-project:hover {
   background-color: #f6cf2d;
 }
 
-.html-css-project:hover {
+.code-project:hover {
   background-color: #614b94;
 }
 
-.api-project:hover {
+.frontend-project:hover {
   background-color: #5884c5;
 }
 
